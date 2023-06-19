@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#4FF44336"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragmentTwo.Fragment_register">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="50dp"
+        android:elevation="15dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register here"
+            android:textSize="45sp"
+            android:textStyle="italic"
+            android:background="#9AEFCFCF"
+            android:paddingVertical="20dp"
+            android:paddingHorizontal="60dp"
+            android:fontFamily="cursive"
+            android:textColor="#FF5722"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="If already registered!"
+            android:textColor="#2196F3"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/login_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:text="Click Here.."
+            android:textColor="#3F51B5"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</LinearLayout>
