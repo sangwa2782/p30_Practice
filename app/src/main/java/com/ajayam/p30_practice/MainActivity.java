@@ -7,6 +7,7 @@ import androidx.fragment.app.FragmentTransaction;
 import android.os.Bundle;
 import android.widget.FrameLayout;
 
+import com.ajayam.p30_practice.Singleton_practice.MySingleton;
 import com.ajayam.p30_practice.fragment.FragmentOne;
 
 public class MainActivity extends AppCompatActivity {
@@ -21,6 +22,10 @@ public class MainActivity extends AppCompatActivity {
         framelayout_one = findViewById(R.id.framelayout_one);
 
         attachFragment();
+
+
+//        MySingleton mySingleton = MySingleton.getMySingleton();
+
 
 
     }
